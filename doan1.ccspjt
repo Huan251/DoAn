@@ -1,0 +1,143 @@
+[PROJECT]
+Target=doan1.hex
+Processor_Text=PIC16F887
+CCSVersion=5.109
+Compiler=PCM
+[Target Data]
+FileList=doan1.c
+[doan1.c]
+Type=4
+[mru-list]
+1=doan1.c
+
+[defines]
+buildcount=149
+
+[Opened Files]
+1=..\AppData\Local\Temp\Zalo Temp\89d1ef1d3219d7f29d209ccfc2fe4ede~\DoAn2\main.c
+t1=89
+2=doan1.c
+t2=1
+Count=8
+3=..\AppData\Local\Temp\Zalo Temp\89d1ef1d3219d7f29d209ccfc2fe4ede~\DoAn2\test_lcdi2c.c
+t3=53
+4=..\Downloads\test.c
+t4=410
+5=test1.c
+t5=510
+6=test2.c
+t6=510
+7=test3.c
+t7=566
+8=test4.c
+t8=849
+
+[ProjectLog]
+Days=4
+D1=22-12-2025
+D1_L=9
+D1_L1=[53415]Project Closed.
+D1_L2=[53427]Project Opened.
+D1_L3=[53889]Started Editing.
+D1_L4=[55032]Stopped Editing.
+D1_L5=[55066]Started Editing.
+D1_L6=[55487]Stopped Editing.
+D1_L7=[55557]Started Editing.
+D1_L8=[56367]Stopped Editing.
+TotalEdit=340
+TotalDebug=0
+D1_E=30
+D1_D=0
+D1_L9=[56367]Project Closed.
+D2=23-12-2025
+D2_L=34
+D2_L1=[49519]Project Opened.
+D2_L2=[49520]Project Closed.
+D2_L3=[49521]Project Opened.
+D2_L4=[50690]Project Closed.
+D2_L5=[75445]Project Opened.
+D2_L6=[75592]Started Editing.
+D2_L7=[76449]Stopped Editing.
+D2_E=115
+D2_D=0
+D2_L8=[76455]Project Closed.
+D2_L9=[76470]Project Opened.
+D2_L10=[76470]Project Closed.
+D2_L11=[76474]Project Opened.
+D2_L12=[76512]Project Closed.
+D2_L13=[76518]Project Opened.
+D2_L14=[76519]Project Closed.
+D2_L15=[76521]Project Opened.
+D2_L16=[76578]Project Closed.
+D2_L17=[76597]Project Opened.
+D2_L18=[76611]Project Closed.
+D2_L19=[76739]Project Opened.
+D2_L20=[76739]Project Closed.
+D2_L21=[76741]Project Opened.
+D2_L22=[76848]Started Editing.
+D2_L23=[80273]Stopped Editing.
+D2_L24=[80460]Started Editing.
+D2_L25=[81202]Stopped Editing.
+D2_L26=[81391]Started Editing.
+D2_L27=[83395]Stopped Editing.
+D2_L28=[83395]Project Closed.
+D2_L29=[84046]Project Opened.
+D2_L30=[84052]Project Closed.
+D2_L31=[84062]Project Opened.
+D2_L32=[84094]Started Editing.
+D2_L33=[84458]Stopped Editing.
+D2_L34=[84458]Project Closed.
+D3=24-12-2025
+D3_L=26
+D3_L1=[31599]Project Opened.
+D3_L2=[31600]Project Closed.
+D3_L3=[31602]Project Opened.
+D3_L4=[31617]Started Editing.
+D3_L5=[31922]Stopped Editing.
+D3_L6=[32383]Started Editing.
+D3_L7=[35305]Stopped Editing.
+D3_L8=[35606]Started Editing.
+D3_L9=[36282]Stopped Editing.
+D3_L10=[36287]Started Editing.
+D3_L11=[38147]Stopped Editing.
+D3_L12=[38152]Started Editing.
+D3_L13=[40502]Stopped Editing.
+D3_L14=[40554]Started Editing.
+D3_L15=[43337]Stopped Editing.
+D3_E=194
+D3_D=0
+D3_L16=[43348]Started Editing.
+D3_L17=[43768]Stopped Editing.
+D3_L18=[44476]Started Editing.
+D3_L19=[44861]Stopped Editing.
+D3_L20=[45327]Started Editing.
+D3_L21=[45640]Stopped Editing.
+D3_L22=[45725]Started Editing.
+D3_L23=[47003]Stopped Editing.
+D3_L24=[47018]Started Editing.
+D3_L25=[48014]Stopped Editing.
+D3_L26=[48014]Project Closed.
+D4=25-12-2025
+D4_L=14
+D4_L1=[39931]Project Opened.
+D4_L2=[39931]Project Closed.
+D4_L3=[39933]Project Opened.
+D4_L4=[39977]Project Closed.
+D4_L5=[48254]Project Opened.
+D4_L6=[48255]Project Closed.
+D4_L7=[48263]Project Opened.
+D4_L8=[48267]Started Editing.
+D4_L9=[48271]Stopped Editing.
+D4_E=1
+D4_D=0
+D4_L10=[48271]Project Closed.
+D4_L11=[56433]Project Opened.
+D4_L12=[56433]Project Closed.
+D4_L13=[56435]Project Opened.
+D4_L14=[56594]Project Closed.
+
+[fileformats]
+forcecoff=0
+[Units]
+Count=1
+1=doan1 (main)

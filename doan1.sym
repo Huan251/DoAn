@@ -1,0 +1,237 @@
+004-005 @WRITE_PROGRAM_MEMORY8.P1
+004-005 @READ_PROGRAM_MEMORY8.P2
+015     CCP_1
+015     CCP_1_LOW
+016     CCP_1_HIGH
+01B     CCP_2
+01B     CCP_2_LOW
+01C     CCP_2_HIGH
+020     @TRIS_C
+021-022 strtok.save
+023-026 _Randseed
+027.0   RS
+027.1   shift_mode
+028     i2c_addr
+029     backlight_val
+02A-02B ANS
+02C-02D luu_gia_tri_I
+02E-02F luu_gia_tri_J
+030-031 loi
+032-033 @sprintf_string
+034     MAIN.phim
+035-043 MAIN.bieu_thuc
+044     MAIN.vi_tri
+045.0   MAIN.da_xong
+045.1   MAIN.man_hinh_ban_dau
+046-051 MAIN.buf
+052     MAIN.i
+053     MAIN.i
+054     MAIN.i
+055     MAIN.i
+056     MAIN.i
+057     MAIN.i
+058     MAIN.i
+059     MAIN.i
+05A-05B MAIN.kq
+05C     MAIN.i
+05D-05E MAIN.kq
+05F     MAIN.i
+060     MAIN.i
+061     MAIN.am_trong_ngoac
+062-063 MAIN.kq
+064     MAIN.i
+065     MAIN.i
+066-067 la_mu_chan.bt
+066     doc_phim.hang
+066-067 @PRINTF_LD_1093.P1
+066-067 tinh_bieu_thuc.bieu_thuc
+066-067 tinh_sqrt.n
+066     LCD_Begin._i2c_addr
+066     MAIN.@SCRATCH1
+067     LCD_Out.LCD_Char
+067     LCD_Goto.col
+067     doc_phim.cot
+067     @delay_ms1.P1
+067     MAIN.@SCRATCH2
+068     tinh_bieu_thuc.vtop
+068     LCD_Goto.row
+068     doc_phim.phim
+068     la_mu_chan.i
+068-069 tinh_sqrt.x
+068     LCD_Out.@SCRATCH1
+068     MAIN.@SCRATCH3
+068     @PRINTF_LD_1093.@SCRATCH1
+069     la_mu_chan.mu
+069     tinh_bieu_thuc.otop
+069.0   doc_phim.nhan
+069     LCD_Goto.@SCRATCH1
+069     @PRINTF_LD_1093.@SCRATCH2
+06A     LCD_Cmd.Command
+06A     @MUL88.P1
+06A-06B tinh_sqrt.prev
+06A-06B tinh_bieu_thuc.i
+06A     doc_phim.@SCRATCH1
+06A     la_mu_chan.@SCRATCH1
+06A     @PRINTF_LD_1093.@SCRATCH3
+06B     @MUL88.P1
+06B     LCD_Cmd.@SCRATCH1
+06B     la_mu_chan.@SCRATCH2
+06B     @PRINTF_LD_1093.@SCRATCH4
+06C     tinh_bieu_thuc.c
+06C     LCD_Write_Nibble.n
+06C     tinh_sqrt.@SCRATCH1
+06C     @PRINTF_LD_1093.@SCRATCH5
+06D     tinh_bieu_thuc.prev
+06D     LCD_Write_Nibble.@SCRATCH1
+06D     tinh_sqrt.@SCRATCH2
+06D     @PRINTF_LD_1093.@SCRATCH6
+06E     Expander_Write.value
+06E-06F tinh_bieu_thuc.b
+06E-06F @DIVS1616.P1
+06E     @PRINTF_LD_1093.@SCRATCH7
+06F     @SPRINTF.P1
+06F     Expander_Write.@SCRATCH1
+070-071 @DIVS1616.P1
+070     @I2C_WRITE_129.P2
+070-071 tinh_bieu_thuc.a
+072     tinh_bieu_thuc.prev
+072     @DIVS1616.@SCRATCH1
+073-074 tinh_bieu_thuc.b
+073     @DIVS1616.@SCRATCH2
+075-076 tinh_bieu_thuc.a
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+07B     tinh_bieu_thuc.prev
+07C-07D tinh_bieu_thuc.b
+07E     tinh_bieu_thuc.next
+0A0-0C7 tinh_bieu_thuc.val
+0C8-0DB tinh_bieu_thuc.op
+0DC-0DD tinh_bieu_thuc.a
+0DE-0DF tinh_bieu_thuc.num
+0E0-0E1 tinh_bieu_thuc.b
+0E2-0E3 tinh_bieu_thuc.a
+0E4-0E5 tinh_bieu_thuc.b
+0E6-0E7 tinh_bieu_thuc.a
+0E8-0E9 tinh_bieu_thuc.b
+0EA-0EB tinh_bieu_thuc.a
+0EC-0ED tinh_bieu_thuc.b
+0EE-0EF tinh_bieu_thuc.a
+107.6   C1OUT
+108.6   C2OUT
+10D-10E @WRITE_PROGRAM_MEMORY8.P1
+10D-10E @READ_PROGRAM_MEMORY8.P2
+110     tinh_bieu_thuc.@SCRATCH1
+111     tinh_bieu_thuc.@SCRATCH2
+112     tinh_bieu_thuc.@SCRATCH3
+113     tinh_bieu_thuc.@SCRATCH4
+114     tinh_bieu_thuc.@SCRATCH5
+125     uu_tien_toan_tu.toan_tu
+125-126 strlen.s
+126-127 tinh_toan.so_a
+127-128 strlen.sc
+127-128 tinh_giai_thua.so_n
+128     phep_toan.c
+128-129 tinh_toan.so_b
+129-12A tinh_giai_thua.ket_qua
+129     strlen.@SCRATCH1
+12A     tinh_toan.toan_tu
+12B-12C tinh_giai_thua.i
+12B-12C @MUL1616.P1
+12B-12C tinh_luy_thua.co_so
+12D-12E @MUL1616.P1
+12D-12E tinh_luy_thua.so_mu
+12F-130 tinh_luy_thua.ket_qua
+12F     @MUL1616.@SCRATCH1
+131-132 tinh_luy_thua.i
+133-134 @MULS1616.P1
+133-134 @DIV1616.P2
+133     tinh_luy_thua.@SCRATCH1
+134     tinh_luy_thua.@SCRATCH2
+135-136 @DIV1616.P1
+135-136 @MULS1616.P2
+137     @MULS1616.@SCRATCH1
+137     @DIV1616.@SCRATCH1
+138     @MULS1616.@SCRATCH2
+
+ROM Allocation:
+000004  PHIM_THUONG.call
+000008  PHIM_THUONG.data
+000018  PHIM_SHIFT.call
+00001C  PHIM_SHIFT.data
+00002C  @delay_ms1
+000040  @I2C_WRITE_129
+00009C  Expander_Write
+0000E3  LCD_Write_Nibble
+0000FC  LCD_Cmd
+00010C  LCD_Begin
+000146  LCD_Goto
+00016D  LCD_Out
+00017D  doc_phim
+000209  @goto29989
+000211  @goto30016
+000219  cap_nhat_shift_lcd
+00022D  @SPRINTF
+00023A  @PRINTF_LD_1093
+0002BA  strlen
+0002DA  uu_tien_toan_tu
+000310  @DIV1616
+000337  @MULS1616
+000367  tinh_toan
+0003A4  @MUL1616
+000409  tinh_luy_thua
+0004F6  phep_toan
+000518  @DIVS1616
+000556  tinh_sqrt
+0005B5  la_mu_chan
+0005F2  @MUL88
+000800  tinh_bieu_thuc
+000CEE  tinh_giai_thua
+001000  MAIN
+001000  @cinit1
+001021  @cinit2
+0135  StrtoulGO
+0135  StrtolGO
+
+Project Directory:
+    C:\Users\Huan\DoAn\
+
+Project Files:
+    doan1.c                                                 [24-Dec-25 13:18  CRC=00FF473C]
+    ..\..\..\Program Files (x86)\PICC\Devices\16F887.h      [06-May-22 15:52  CRC=DB832FED]
+    ..\..\..\Program Files (x86)\PICC\Drivers\string.h      [06-Apr-20 08:43  CRC=B1605627]
+    ..\..\..\Program Files (x86)\PICC\Drivers\stddef.h      [30-Jan-19 12:26  CRC=897CEC6C]
+    ..\..\..\Program Files (x86)\PICC\Drivers\ctype.h       [03-Jan-08 15:55  CRC=2D1F019F]
+    ..\..\..\Program Files (x86)\PICC\Drivers\stdlib.h      [30-Jun-20 14:21  CRC=452E14BB]
+    ..\..\..\Program Files (x86)\PICC\Drivers\stdio.h       [31-Jul-07 15:24  CRC=4E4534F4]
+    I2C_LCD.c                                               [22-Dec-25 14:50  CRC=0FC0ACB1]
+
+Source signature=F7735E6C
+Program memory checksum=0000
+Hex file CRC=471A
+
+Units:
+    C:\Users\Huan\DoAn\doan1 (main)
+
+Compiler Settings:
+    Processor:      PIC16F887
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:   CCS5
+
+Output Files:
+    XREF file:   doan1.xsym
+    Errors:      doan1.err
+    Ext Symbols: doan1.esym
+    INHX8:       doan1.hex
+    Symbols:     doan1.sym
+    List:        doan1.lst
+    Debug/COFF:  doan1.cof
+    Project:     doan1.ccspjt
+    Call Tree:   doan1.tre
+    Statistics:  doan1.STA

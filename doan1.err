@@ -1,0 +1,10 @@
+Compiling C:\Users\Huan\DoAn\doan1 on 25-Dec-25 at 15:43
+>>> Warning 205 "C:\Users\Huan\DoAn\doan1.c" Line 142(1,1): Unsigned variable is never less than zero
+>>> Warning 204 "C:\Users\Huan\DoAn\doan1.c" Line 142(1,1): Condition always FALSE
+>>> Warning 205 "C:\Users\Huan\DoAn\doan1.c" Line 192(1,1): Unsigned variable is never less than zero
+>>> Warning 204 "C:\Users\Huan\DoAn\doan1.c" Line 192(1,1): Condition always FALSE
+>>> Warning 205 "C:\Users\Huan\DoAn\doan1.c" Line 348(1,1): Unsigned variable is never less than zero
+>>> Warning 204 "C:\Users\Huan\DoAn\doan1.c" Line 348(1,1): Condition always FALSE
+      Memory usage:   ROM=67%      RAM=21% - 59%
+      0 Errors,  6 Warnings.
+Build Successful.
